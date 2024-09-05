@@ -1,8 +1,6 @@
 
-#### Setting up a virtual machine in the Resource Group
+#### Virtual machine (VM) setup on the Ms-Azure Resource Group:
 
-
-Virtual machine (VM) setup on the Ms-Azure Resource Group:
 ```bash
 sudo apt-get update && sudo apt-get upgrade
 sudo apt install ubuntu-desktop -y
