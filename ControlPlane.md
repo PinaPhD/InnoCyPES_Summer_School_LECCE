@@ -66,7 +66,8 @@ username/password: onos/rocks
 
 ### Reinstalling ONOS on the same VM?
 You will often get a warning that the "remote host identification has changed! 
-It is possible that you are offending RSA key in the ssh directory.
+It is possible that you are offending RSA key in the ssh directory. 
+To solve this challenge run the command below:
 
 ```
 ssh-keygen -f "/home/amwangi254/.ssh/known_hosts" -R "[localhost]:8101"
