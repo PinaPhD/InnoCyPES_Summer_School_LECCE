@@ -63,3 +63,13 @@ Login GUI
 Open browser and type `http:<localhost>:8181/onos/ui`
 
 username/password: onos/rocks
+
+### Reinstalling ONOS on the same VM?
+You will often get a warning that the "remote host identification has changed! 
+It is possible that you are offending RSA key in the ssh directory.
+
+```
+ssh-keygen -f "/home/amwangi254/.ssh/known_hosts" -R "[localhost]:8101"
+```
+
+#### All the best :-)
